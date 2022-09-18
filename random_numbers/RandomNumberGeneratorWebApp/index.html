@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Random Numbers</title>
+</head>
+<body>
+    <div class="container">
+    <label for="random_seed_value">Random Seed</label>
+    <input type="number" placeholder="Enter Random Seed" id="random_seed_value" value=1982537 name="random_seed_value"class="form-control">
+    <label for="random_count_value">How Many Random Number to Generate</label>
+    <input type="number" placeholder="Enter Number of Random Value to Generate" id="random_count" value=10000 name="random_seed_value"class="form-control">
+    <button id="rand_number" class="btn btn-primary">Generate Random Number</button>
+    <figure class="highcharts-figure">
+        <div id="chart_container"></div>
+        <p class="highcharts-description">
+            Chart showing how Highcharts can automatically compute a histogram from
+            source data. In this chart, the source data is also displayed as a
+            scatter plot.
+        </p>
+    </figure>
+</div>
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/histogram-bellcurve.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+</body>
+</html>
